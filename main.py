@@ -19,7 +19,7 @@ while (True): #loop infinito
     leite_qt = int(input('Digite a quantidade de pães de leite:'))
     milho_qt = int(input('Digite a quantidade de pães de milho:'))
     total = sal_qt + leite_qt + milho_qt
-    print('Total de pães: %.0f deu %.2f' % (total, total*0.25))
+    print('Total de pães: %.0f deu R$%.2f' % (total, total*0.25))
 
     input('\n\nPressione ENTER para continuar:')
     os.system('clear')
